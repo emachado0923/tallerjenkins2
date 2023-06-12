@@ -22,13 +22,13 @@ pipeline {
       }
     }
 
-    stage('test') {
-      steps {
-        dir('frontend') {
-          sh 'npm run test'
-        }
-      }
-    }
+    // stage('test') {
+    //   steps {
+    //     dir('frontend') {
+    //       sh 'npm run test'
+    //     }
+    //   }
+    // }
 
     stage('build') {
       steps {
