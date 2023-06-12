@@ -15,7 +15,7 @@ pipeline {
   stages {
     stage('install') {
       steps {
-        git branch: 'develop', url: 'https://github.com/LuisArana631/Taller_Jenkins.git'
+        git branch: 'develop', url: 'https://github.com/emachado0923/tallerjenkins2.git'
         dir('frontend') {
           sh 'npm install'
         }
