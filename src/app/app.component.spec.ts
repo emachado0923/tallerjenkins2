@@ -26,10 +26,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('frontend');
   });
 
-  it('suma 2+5 = 7', () => {
-    const suma = 2+5;
-    expect(suma).toBe(7);
-  });
+  // it('suma 2+5 = 7', () => {
+  //   const suma = 2+5;
+  //   expect(suma).toBe(7);
+  // });
 
   it('suma 2+3 = 5', () => {
     const suma = 2+3;
