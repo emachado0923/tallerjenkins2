@@ -17,7 +17,7 @@ pipeline {
       steps {
         git branch: 'master', url: 'https://github.com/emachado0923/tallerjenkins2.git'
         dir('frontend') {
-          sh 'npm cache clean --force'
+          
           sh 'npm install'
         }
       }
